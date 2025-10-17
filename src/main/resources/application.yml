@@ -1,0 +1,17 @@
+#Thu Oct 16 15:01:27 UTC 2025
+micronaut:
+  application:
+    name: 'dogs-service'
+jpa:
+  default:
+    entity-scan:
+      packages: 'co.uk.dog.entity'
+
+r2dbc:
+  datasources:
+    default:
+      url: r2dbc:h2:mem:///testdb
+      username: sa
+      password: ""
+      options:
+        DB_CLOSE_DELAY: "-1"

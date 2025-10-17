@@ -1,0 +1,4 @@
+
+
+rootProject.name="dog-service"
+
